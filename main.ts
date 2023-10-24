@@ -8,7 +8,7 @@ basic.forever(function () {
     if (Run) {
         Count += 1
         basic.showString("" + (Count))
-        if (10 == Count) {
+        if (22 == Count) {
             Count = 0
         }
     }
