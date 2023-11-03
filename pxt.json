@@ -2,7 +2,8 @@
     "name": "wennDann",
     "description": "",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "TM1637": "github:makecode-extensions/tm1637#v1.0.0"
     },
     "files": [
         "main.blocks",
