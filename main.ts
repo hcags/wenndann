@@ -1,3 +1,19 @@
+input.onGesture(Gesture.ScreenDown, function () {
+    basic.showLeds(`
+        . # . # .
+        # # # # #
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+})
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     Run = !(Run)
 })
