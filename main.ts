@@ -16,6 +16,11 @@ input.onGesture(Gesture.LogoDown, function () {
     basic.setLedColor(basic.rgb(255, 0, 0))
     basic.showString("Drest du mich bitte richtigrum ")
 })
+input.onGesture(Gesture.ScreenUp, function () {
+    if (Count) {
+        Count = 10
+    }
+})
 let Run = false
 let Count = 0
 Count = 0
